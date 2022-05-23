@@ -1,0 +1,11 @@
+{    "tickers":["RTKM","TMOS","GOOGL","VTBR"], 
+     "timeFrames":[{"seconds":60, "timeLimit":"2022-05-18T00:00:00Z"}],
+     "experts":[{"ticker":"RTKM","name":"MA_INTERSECTION_60","lot":1,"mode":4},{"ticker":"TMOS","name":"STEP_60","lot":2,"mode":4}],
+     "trade":{"algo":true,"real":true,"demo":false,"long":true,"short":false, "token":"myAbCd"},
+     "books":["GOOGL"],
+     "trades":["AAPL"],
+     "others":{"clearCandleHistory":true,"getData":true},
+     "tgUsers":["ku_dan"],
+     "tgToken":"bot1536231669:abcd",
+     "tgLogTypes":[1,2,3,4,5,6]
+}

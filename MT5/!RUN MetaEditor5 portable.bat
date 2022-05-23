@@ -1,0 +1,1 @@
+start "%~dp0/" metaeditor64.exe /portable

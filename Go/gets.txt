@@ -1,0 +1,4 @@
+установить компилятор golang
+установить tdm64-gcc-10.3.0-2.exe 
+go get github.com/mattn/go-sqlite3
+go get github.com/qustavo/dotsql

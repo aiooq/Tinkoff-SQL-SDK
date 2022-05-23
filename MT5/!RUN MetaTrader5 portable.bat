@@ -1,0 +1,1 @@
+start "%~dp0/" terminal64.exe /portable

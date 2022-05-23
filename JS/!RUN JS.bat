@@ -1,0 +1,1 @@
+start node "%~dp0/app.js"

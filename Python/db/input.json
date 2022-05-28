@@ -1,9 +1,24 @@
 {    "tickers":["RTKM","TMOS","GOOGL","VTBR"], 
-     "timeFrames":[{"seconds":60, "timeLimit":"2022-05-18T00:00:00Z"}],
+     "timeFrames":[{"seconds":60, "timeLimit":"2022-02-18T00:00:00Z"}],
      "experts":[{"ticker":"RTKM","name":"MA_INTERSECTION_60","lot":1,"mode":4},{"ticker":"TMOS","name":"STEP_60","lot":2,"mode":4}],
      "trade":{"algo":true,"real":true,"demo":false,"long":true,"short":false, "token":"myAbCd"},
      "books":["GOOGL"],
      "trades":["AAPL"],
+     "indicators":[
+    {"ticker":"AAPL","tf_seconds":86400,"name":"FRACTAL","indicators":[]},
+    {"ticker":"AAPL","tf_seconds":86400,"name":"BAR_BULL_BEAR","indicators":[]},
+    {"ticker":"AAPL","tf_seconds":86400,"name":"AO","indicators":
+        [
+            {"ticker":"AAPL","tf_seconds":86400,"name":"MA","mode":1,"period":34,"price":0,"shift":0,"indicators":[]},
+            {"ticker":"AAPL","tf_seconds":86400,"name":"MA","mode":1,"period":5,"price":0,"shift":0,"indicators":[]}
+    ]},
+    {"ticker":"AAPL","tf_seconds":86400,"name":"ALLIGATOR","indicators":
+        [    
+            {"ticker":"AAPL","tf_seconds":86400,"name":"MA","mode":1,"period":5,"price":0,"shift":3},
+            {"ticker":"AAPL","tf_seconds":86400,"name":"MA","mode":1,"period":8,"price":0,"shift":5},
+            {"ticker":"AAPL","tf_seconds":86400,"name":"MA","mode":1,"period":13,"price":0,"shift":8}
+    ]}
+],
      "others":{"clearCandleHistory":true,"getData":true},
      "tgUsers":["ku_dan"],
      "tgToken":"bot1536231669:abcd",

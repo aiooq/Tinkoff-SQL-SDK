@@ -1,4 +1,4 @@
-SELECT time+@TimeGMTOffset time,
+SELECT time,
        open,
        high,
        low,
